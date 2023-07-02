@@ -30,7 +30,6 @@
     'username' => 'gustavomiranda.contato@outlook.com',
     'password' => 'Angelapaulo1',
     'port' => '587',
-    'encryption' => 'STARTTLS'
   );
   
 
