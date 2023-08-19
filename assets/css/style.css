@@ -81,6 +81,7 @@ h6 {
   border-radius: 50px;
   box-shadow: 1px 4px 5px -3px rgba(168, 168, 168);
   transition: transform 0.3s, opacity 0.3s;
+  display: none;
 }
 
 button:hover {
@@ -146,6 +147,7 @@ button:active {
     border-radius: 50px;
     box-shadow: 1px 4px 5px -3px rgba(168, 168, 168);
     transition: transform 0.3s, opacity 0.3s;
+    display: block;
   }
 
   button:hover {
