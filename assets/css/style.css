@@ -66,6 +66,31 @@ h6 {
   opacity: 1;
 }
 
+.text-center {
+  border-radius: 10px;
+}
+
+
+
+.curriculo-download {
+  background: #0563bb;
+  margin: 29px 0 0 13px;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 1px 4px 5px -3px rgba(168, 168, 168);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  opacity: 0.8;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -107,9 +132,28 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 740px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
+  }
+
+  .curriculo-download {
+    background: #0563bb;
+    margin: 29px 80px 0;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 1px 4px 5px -3px rgba(168, 168, 168);
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  button:active {
+    opacity: 0.8;
   }
 }
 
