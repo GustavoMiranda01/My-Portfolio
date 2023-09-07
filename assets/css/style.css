@@ -415,7 +415,7 @@ button:active {
 @media screen and (max-width: 770px) {
 
   .logotipo {
-    position: fixed;
+    position: absolute;
     top: 29%;
     left: 50%;
     transform: translate(-50%, -50%);
