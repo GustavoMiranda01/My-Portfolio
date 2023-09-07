@@ -334,9 +334,9 @@ button:active {
 
 @media screen and (max-width: 770px) {
   #hero {
-    
+
     background: url("../img/Minhas-fotos/capa2.png") top right no-repeat;
-    
+
   }
 }
 
@@ -401,6 +401,26 @@ button:active {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+  }
+}
+
+.logotipo {
+  position: absolute;
+  left: 930px;
+  top: 210px;
+  width: 180px;
+  height: auto;
+}
+
+@media screen and (max-width: 770px) {
+
+  .logotipo {
+    position: fixed;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: auto;
   }
 }
 
