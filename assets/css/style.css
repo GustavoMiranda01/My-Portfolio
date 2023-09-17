@@ -78,7 +78,7 @@ h6 {
   border: 0;
   padding: 10px 35px;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 12px;
   box-shadow: 1px 4px 5px -3px rgba(168, 168, 168);
   transition: transform 0.3s, opacity 0.3s;
   display: none;
@@ -141,11 +141,11 @@ button:active {
   .curriculo-download {
     background: #0563bb;
     font-size: 14px;
-    margin: 80px auto -30px;
+    margin: 50px auto -30px;
     border: 0;
     padding: 10px 35px;
     color: #fff;
-    border-radius: 50px;
+    border-radius: 12px;
     box-shadow: 1px 4px 5px -3px rgba(168, 168, 168);
     transition: transform 0.3s, opacity 0.3s;
     display: block;
@@ -162,7 +162,7 @@ button:active {
   .img-skill {
     content: url(../img/portfolio/skill-mobile.png);
     width: 419px !important;
-    margin-left: -24px !important;
+    margin-left: -22px !important;
     margin-bottom: -20px !important;
   }
 
@@ -439,7 +439,7 @@ button:active {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 0 40px;
   overflow: hidden;
 }
 
@@ -1225,7 +1225,7 @@ img .img-skill {
   padding: 10px 35px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 50px;
+  border-radius: 12px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
