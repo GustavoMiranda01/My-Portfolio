@@ -160,9 +160,10 @@ button:active {
   }
 
   .img-skill {
-    width: 419px!important;
-    margin-left: -24px!important;
-    margin-bottom: -20px!important;
+    content: url(../img/portfolio/skill-mobile.png);
+    width: 419px !important;
+    margin-left: -24px !important;
+    margin-bottom: -20px !important;
   }
 
   .no-mobile {
@@ -565,8 +566,8 @@ section {
 --------------------------------------------------------------*/
 img .img-skill {
   .img-skill {
-    display: block; 
-    margin-left: 45%; 
+    display: block;
+    margin-left: 45%;
     margin-right: 55%;
   }
 }
