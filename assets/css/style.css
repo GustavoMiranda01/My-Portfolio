@@ -160,9 +160,9 @@ button:active {
   }
 
   .img-skill {
-    width: 419px;
-    margin-left: -24px;
-    margin-bottom: -20px;
+    width: 419px!important;
+    margin-left: -24px!important;
+    margin-bottom: -20px!important;
   }
 
   .no-mobile {
