@@ -427,8 +427,8 @@ button:active {
 
   .logotipo {
     position: absolute;
-    top: 29%;
-    left: 50%;
+    top: 21%;
+    left: 31%;
     transform: translate(-50%, -50%);
     width: 150px;
     height: auto;
