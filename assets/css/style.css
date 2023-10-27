@@ -1,14 +1,4 @@
-/**
-* Template Name: MyResume
-* Updated: Jun 13 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -427,7 +417,7 @@ button:active {
 
   .logotipo {
     position: absolute;
-    top: 21%;
+    top: 24%;
     left: 31%;
     transform: translate(-50%, -50%);
     width: 150px;
